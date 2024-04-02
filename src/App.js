@@ -4,7 +4,15 @@ import "./App.css";
 import About from "./About";
 import Projects from "./Projects";
 import Home from "./Home";
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-TBJ9PDDZFK');
+
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
+
   return (
     <div className="App">
       <Routes>
