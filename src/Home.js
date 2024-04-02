@@ -40,10 +40,8 @@ export default function Home() {
     return (
         <div className="Home">
         <div className="Container">
-            <div className="Bar1">
-                <h1>Ashwin Iyer</h1>
-            </div>
             <div className="basic">
+                <h1>Ashwin Iyer</h1>
                 <h2>Senior at Carroll Senior High School</h2>
                 <p>I am currently a senior at Carroll High School and I am interested in computer science. 
                     I am currently learning Python, Java, and JavaScript. <a href='/about'>Read More</a></p>

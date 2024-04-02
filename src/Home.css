@@ -154,6 +154,9 @@ h1{
 }
 
 @media (max-width: 767px) {
+    .Home{
+        padding-left: 0px;
+    }
     .Container {
         padding: 0;
         display: flex;
@@ -174,7 +177,7 @@ h1{
         align-items: center;
         max-width: 100%;
     }
-    .Bar1 h1{
+    .basic h1{
         padding-top: 50px;
         width: 100%;
         text-align: center;
