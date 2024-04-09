@@ -4,10 +4,8 @@ import "./App.css";
 import About from "./About";
 import Projects from "./Projects";
 import Home from "./Home";
-import ReactGA from 'react-ga';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-ReactGA.initialize('G-TBJ9PDDZFK');
 
 function App() {
   const location = useLocation();
