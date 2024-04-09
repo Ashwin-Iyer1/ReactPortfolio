@@ -15,7 +15,7 @@ export default function Links(){
     <a href='https://www.instagram.com/ashwin_i_/' target='_blank'>
         <img src={Instagram} id={'person'}></img>
     </a>
-    <a href='https://discordapp.com/users/299516008920514560'>
+    <a href='https://discordapp.com/users/299516008920514560' target='_blank'>
         <img src={Discord} id={'person'}></img> 
     </a>
 </div>
