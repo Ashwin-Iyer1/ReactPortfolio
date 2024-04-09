@@ -4,14 +4,8 @@ import "./App.css";
 import About from "./About";
 import Projects from "./Projects";
 import Home from "./Home";
-import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 
 function App() {
-  const location = useLocation();
-  useEffect(() => {
-    ReactGA.pageview(location.pathname + location.search);
-  }, [location]);
 
   return (
     <div className="App">
