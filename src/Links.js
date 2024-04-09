@@ -9,8 +9,9 @@ export default function Links(){
     <a href='https://github.com/Ashwin-Iyer1' target='_blank'>
         <img src={Github} id={'person'}></img>
     </a>
-    <a href='https://www.linkedin.com/in/ashwin-iyer-949028263/' target='_blank'></a>
+    <a href='https://www.linkedin.com/in/ashwin-iyer-949028263/' target='_blank'>
         <img src={Linkedin} id={'person'}></img>
+        </a>
     <a href='https://www.instagram.com/ashwin_i_/' target='_blank'>
         <img src={Instagram} id={'person'}></img>
     </a>
