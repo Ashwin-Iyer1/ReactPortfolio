@@ -13,10 +13,15 @@
     color: rgb(167, 94, 235);
     
 }
-
+@media (min-width: 767px) {
+    .About p {
+        max-width: 60%;
+    }
+    
+}
 .About p {
     align-items: left;
-    max-width: 60%;
+    max-width: 90%;
     color: rgb(155, 155, 155);
 }
 
