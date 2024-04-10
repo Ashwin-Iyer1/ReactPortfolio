@@ -50,7 +50,7 @@ class Home extends Component {
                         <h1>Ashwin Iyer</h1>
                         <h2>Senior at Carroll Senior High School</h2>
                         <p>I am currently a senior at Carroll High School and I am interested in computer science.
-                            I am currently learning Python, Java, and JavaScript. <a href='/about'>Read more</a> about me!</p>
+                        I am currently learning Python, Java, and JavaScript. <a href='/about'>Learn more about me!</a></p>
                     </div>
                     <div className="Info">
                         <Links />
