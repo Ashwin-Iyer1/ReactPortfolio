@@ -74,7 +74,7 @@ function Projects(){
                 {ProjectsList.map((project) => {
                     return (
                         <div className="Project" style={{backgroundColor: project.color, border: "2px solid " + removeAlpha(project.color)}}>
-                            <h2><a href={project.link} target='_blank' style={{color:removeAlpha(project.color)}}>{project.name}</a></h2>
+                            <h2><a href={project.link} target='_blank' rel="noreferrer" style={{color:removeAlpha(project.color)}}>{project.name}</a></h2>
                             <p>{project.description}</p>
                             
                         </div>

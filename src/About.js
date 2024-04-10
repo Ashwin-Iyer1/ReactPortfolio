@@ -22,7 +22,7 @@ export default function About(){
                 </div>
                 
             </div>
-            <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/2ItvzS59h6sRnebp4LdTgY?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style={{ borderRadius: '12px' }} title="Spotify" src="https://open.spotify.com/embed/playlist/2ItvzS59h6sRnebp4LdTgY?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
     );
 }
