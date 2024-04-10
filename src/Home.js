@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Home.css';
 import NEU from './Images/NEU.webp';
 import Links from './Links';
@@ -35,41 +35,51 @@ const removeAlpha = (color) => {
     return color.slice(0, -2);
 };
 
-export default function Home() {
-    return (
-        <div className="Home">
-            <div className="Container">
-                <div className="basic">
-                    <h1>Ashwin Iyer</h1>
-                    <h2>Senior at Carroll Senior High School</h2>
-                    <p>I am currently a senior at Carroll High School and I am interested in computer science.
-                        I am currently learning Python, Java, and JavaScript. <a href='/about'>Read more</a> about me!</p>
-                </div>
-                <div className="Info">
-                    <Links />
-                    <div className="Working">
-                        <h2>Currently Working on</h2>
-                        <p>Personal Projects</p>
+class Home extends Component {
+    componentDidMount() {
+        // Preload the NEU image
+        const img = new Image();
+        img.src = NEU;
+    }
+
+    render() {
+        return (
+            <div className="Home">
+                <div className="Container">
+                    <div className="basic">
+                        <h1>Ashwin Iyer</h1>
+                        <h2>Senior at Carroll Senior High School</h2>
+                        <p>I am currently a senior at Carroll High School and I am interested in computer science.
+                            I am currently learning Python, Java, and JavaScript. <a href='/about'>Read more</a> about me!</p>
                     </div>
-                    <div className="College">
-                        <img src={NEU} id={'person'} alt="Northeastern"></img>
+                    <div className="Info">
+                        <Links />
+                        <div className="Working">
+                            <h2>Currently Working on</h2>
+                            <p>Personal Projects</p>
+                        </div>
+                        <div className="College">
+                            <img src={NEU} id={'person'} alt="Northeastern" />
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h2 id="WorkingOn">Projects</h2>
-                    <div className="Projects">
-                        {ProjectsList.map((project) => {
-                            return (
-                                <div className="Project" style={{ backgroundColor: project.color, border: "2px solid " + removeAlpha(project.color) }}>
-                                    <h2><a href={project.link} target='_blank' rel="noreferrer" style={{ color: removeAlpha(project.color) }}>{project.name}</a></h2>
-                                    <p>{project.description}</p>
-                                </div>
-                            )
-                        })}
+                    <div>
+                        <h2 id="WorkingOn">Projects</h2>
+                        <div className="Projects">
+                            {ProjectsList.map((project) => {
+                                return (
+                                    <div className="Project" style={{ backgroundColor: project.color, border: "2px solid " + removeAlpha(project.color) }}>
+                                        <h2><a href={project.link} target='_blank' rel="noreferrer" style={{ color: removeAlpha(project.color) }}>{project.name}</a></h2>
+                                        <p>{project.description}</p>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                        <h3><a className="SeeAllText" href="/Projects">See All</a></h3>
                     </div>
-                    <h3><a className="SeeAllText" href="/Projects">See All</a></h3>
                 </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
+
+export default Home;
