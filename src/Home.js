@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import NEU from './Images/NEU.webp';
+import LazyLoad from 'react-lazyload';
 import Links from './Links';
 
 const ProjectsList = [
@@ -59,7 +60,9 @@ class Home extends Component {
                             <p>Personal Projects</p>
                         </div>
                         <div className="College">
-                            <img src={NEU} id={'person'} alt="Northeastern" />
+                            <LazyLoad once>
+                                <img src={NEU} id={'person'} alt="Northeastern" />
+                            </LazyLoad>
                         </div>
                     </div>
                     <div>
