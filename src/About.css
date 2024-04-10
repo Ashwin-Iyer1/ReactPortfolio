@@ -19,9 +19,15 @@
     }
     
 }
+@media (max-width: 767px) {
+    .About p {
+        max-width: 90%;
+    }
+    
+}
+
 .About p {
     align-items: left;
-    max-width: 90%;
     color: rgb(155, 155, 155);
 }
 
