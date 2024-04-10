@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2901ea72.css",
-    "main.js": "/static/js/main.588c9182.js",
+    "main.js": "/static/js/main.d1e777b2.js",
     "static/js/453.83234151.chunk.js": "/static/js/453.83234151.chunk.js",
     "static/media/instagram-color.webp": "/static/media/instagram-color.4f45147beb025267cbc3.webp",
     "static/media/NEU.webp": "/static/media/NEU.27c865d9034c18dc2875.webp",
@@ -10,11 +10,11 @@
     "static/media/github.webp": "/static/media/github.a27b220aad18cc3aa268.webp",
     "index.html": "/index.html",
     "main.2901ea72.css.map": "/static/css/main.2901ea72.css.map",
-    "main.588c9182.js.map": "/static/js/main.588c9182.js.map",
+    "main.d1e777b2.js.map": "/static/js/main.d1e777b2.js.map",
     "453.83234151.chunk.js.map": "/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2901ea72.css",
-    "static/js/main.588c9182.js"
+    "static/js/main.d1e777b2.js"
   ]
 }
