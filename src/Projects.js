@@ -6,7 +6,7 @@ const ProjectsList = [
         name: 'Cookle',
         description: 'Food guessing game similar to Wordle',
         link: 'https://ninjaqkk.github.io/cookle/',
-        color: '#8a2be240'
+        color: '#BD88F140'
 
     },
     {

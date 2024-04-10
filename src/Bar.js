@@ -8,9 +8,9 @@ export default function Bar() {
                 <h1>Ashwin Iyer</h1>
             </div>
             <div className="links-section">
-                <a href='/'><h3>Home</h3></a>
-                <a href='/Projects'><h3>Projects</h3></a>
-                <a href='/About'><h3>About</h3></a>
+                <a href='/'><h2>Home</h2></a>
+                <a href='/Projects'><h2>Projects</h2></a>
+                <a href='/About'><h2>About</h2></a>
             </div>
         </div>
     );
