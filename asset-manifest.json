@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.decad2db.css",
-    "main.js": "/static/js/main.53486f62.js",
+    "main.js": "/static/js/main.026f2790.js",
     "static/js/453.83234151.chunk.js": "/static/js/453.83234151.chunk.js",
     "static/media/instagram-color.webp": "/static/media/instagram-color.4f45147beb025267cbc3.webp",
-    "static/media/NEU.webp": "/static/media/NEU.27c865d9034c18dc2875.webp",
     "static/media/Discord.webp": "/static/media/Discord.9f4c8d1d3851e34819b3.webp",
     "static/media/linkedin.webp": "/static/media/linkedin.55cfeaa0a272bc455578.webp",
+    "static/media/NEU.webp": "/static/media/NEU.7ae851dbcd6360c121a8.webp",
     "static/media/github.webp": "/static/media/github.a27b220aad18cc3aa268.webp",
     "index.html": "/index.html",
     "main.decad2db.css.map": "/static/css/main.decad2db.css.map",
-    "main.53486f62.js.map": "/static/js/main.53486f62.js.map",
+    "main.026f2790.js.map": "/static/js/main.026f2790.js.map",
     "453.83234151.chunk.js.map": "/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.decad2db.css",
-    "static/js/main.53486f62.js"
+    "static/js/main.026f2790.js"
   ]
 }
