@@ -49,13 +49,13 @@ const ProjectsList = [
         name: 'tiktodv4',
         description: 'Website automation for TikTok views',
         link: 'https://github.com/Ashwin-Iyer1/tiktodv4',
-        color: '#40009840'
+        color: '#B885FF40'
     },
     {
         name: 'Chess Bot',
         description: 'A chess bot for sites usin OpenCV and Stockfish',
         link: 'https://github.com/Ashwin-Iyer1/Chess-Bot-using-OpenCV',
-        color: '#8E008E40'
+        color: '#FF57FF40'
     }
 
 ]
