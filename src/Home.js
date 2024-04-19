@@ -24,10 +24,10 @@ const ProjectsList = [
         color: '#FF000040'
     },
     {
-        name: 'TikTok Video Creator',
-        description: 'Merging of videos with video splicing',
-        link: 'https://github.com/Ashwin-Iyer1/TikTok-Video-Creator',
-        color: '#FF8E0040'
+        name: 'ChatGPT vs Gemini trader',
+        description: 'A bot which is hosted on the Heroku backend that picks out stocks based on the news sentiment from ChatGPT vs Gemini',
+        link: 'https://github.com/Ashwin-Iyer1/GPTvsGeminiTrader',
+        color: '#007CB540'
     },
 ];
 

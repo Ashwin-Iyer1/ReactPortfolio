@@ -3,6 +3,12 @@ import Bar from './Bar.js';
 import "./Project.css"
 const ProjectsList = [
     {
+        name: 'ChatGPT vs Gemini trader',
+        description: 'A bot which is hosted on the Heroku backend that picks out stocks based on the news sentiment from ChatGPT vs Gemini',
+        link: 'https://github.com/Ashwin-Iyer1/GPTvsGeminiTrader',
+        color: '#007CB540'
+    },
+    {
         name: 'Cookle',
         description: 'Food guessing game similar to Wordle',
         link: 'https://ninjaqkk.github.io/cookle/',
@@ -53,7 +59,7 @@ const ProjectsList = [
     },
     {
         name: 'Chess Bot',
-        description: 'A chess bot for sites usin OpenCV and Stockfish',
+        description: 'A chess bot for sites using OpenCV and Stockfish',
         link: 'https://github.com/Ashwin-Iyer1/Chess-Bot-using-OpenCV',
         color: '#FF57FF40'
     }
