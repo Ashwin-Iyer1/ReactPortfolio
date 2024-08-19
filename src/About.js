@@ -10,7 +10,7 @@ export default function About(){
             <div className="BG" />
             <div className="text">
                 <h2>About me 😲</h2>
-                <p>My name is Ashwin Iyer, a current senior at <b>Carroll Senior High School</b> and I am planning to attend <b>Northeastern University</b> in Boston for Computer science x Business.
+                <p>My name is Ashwin Iyer, a current freshman at <b>Northeastern University</b> for <b>Computer science x Business</b>.
                     I am looking forward to the co-op program as well as joining the <b>Mars Rover Team</b> and the <b>Electric Racing Team</b>.
                 </p>
                 <p>I have been hobby coding for around 10~ years and have competed in 2 hackathons being <b>HackUTD</b> and <b>AIFAHacks</b> and I have won both. 
