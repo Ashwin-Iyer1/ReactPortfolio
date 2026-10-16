@@ -1,55 +1,25 @@
 {
-  "name": "myportfolio",
-  "version": "0.1.0",
-  "homepage": "https://ashwin-iyer1.github.io",
-  "private": false,
-  "dependencies": {
-    "@react-three/drei": "^9.111.2",
-    "@react-three/fiber": "^8.17.5",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/three": "^0.167.1",
-    "ghspa": "^1.0.0",
-    "next": "^14.2.15",
-    "nth-check": "^2.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-ga": "^3.3.1",
-    "react-ga4": "^2.1.0",
-    "react-lazyload": "^3.2.1",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
-    "three": "^0.167.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "ashwin-earlier-work-archive",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite --host 127.0.0.1 --port 4200 --strictPort",
+    "start": "npm run dev",
+    "build": "vite build && node scripts/finish-build.mjs",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.js",
+    "test:ui": "playwright test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "vite": "8.3.4",
+    "@playwright/test": "1.64.1"
+  },
+  "engines": {
+    "node": ">=22.12"
   }
 }
