@@ -56,8 +56,8 @@ const metadata = [
     "driving",
     "Data & AI",
     "Students Drive Safe",
-    "A site for experimenting with language-model analysis of driving.",
-    "The historical portfolio describes model testing. It does not establish measured road-safety performance or suitability for real driving decisions.",
+    "A web prototype for inspecting inertial-sensor model outputs.",
+    "The saved model processes accelerometer/gyroscope sequences. The original portfolio called it a language model; that historical wording is retained below, but is not a description of the actual sensor model. No road-safety validation is established.",
   ],
   [
     "home",
